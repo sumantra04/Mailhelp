@@ -1,4 +1,4 @@
-import { categorizeEmail } from "src/services/categorizeEmail";
+import { categorizeEmail } from "./categorizeEmail";
 
 
 async function processEmail(email) {
