@@ -1,4 +1,5 @@
-import { categorizeEmail } from "./categorizeEmail";
+import { categorizeEmail } from "./services/categorizeEmail";
+
 
 async function processEmail(email) {
   const category = await categorizeEmail(email.subject, email.body);
