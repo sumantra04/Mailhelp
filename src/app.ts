@@ -2,7 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import bodyParser from "body-parser";
-import fetchEmails from "./services/imapService"; 
+import { fetchEmails } from "./services/imapService";
+
 
 
 dotenv.config();
